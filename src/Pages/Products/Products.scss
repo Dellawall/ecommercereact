@@ -1,0 +1,23 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+// .cards {
+//     display: grid;
+//     justify-content: center;
+//     width: 250px;
+//     height: 370px;
+//     border: 1px solid grey;
+// }
+
+

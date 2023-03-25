@@ -1,0 +1,29 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mapp{
+    display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+    place-items: center;
+    width: fit-content;
+    margin-inline: auto;
+    // height: 50vh;
+    // margin: 5px auto;
+    // border: 1px solid brown;
+}
+
+
+@media screen and (min-width: 768px) {
+    .mapp{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (min-width: 970px) {
+    .mapp{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+

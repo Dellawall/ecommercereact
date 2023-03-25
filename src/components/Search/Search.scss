@@ -1,0 +1,89 @@
+
+.search{
+    display: flex;
+    min-width: fit-content;
+    padding: 10px;
+    justify-content: space-around;
+    
+    background-color: transparent;
+        .list-icons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: rgba(218, 165, 32, 0.781);
+        }
+        form {
+            display: flex;
+            // justify-content: center;
+            position: relative;
+            border: 1px solid;
+            align-items: center;
+            button,
+            input {
+                border: none;
+            }
+            input{
+                outline: none;
+                width: 150px;
+                
+            }
+            button{
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: transparent;
+                cursor: pointer;
+                font-weight: 400;
+                font-size: medium;
+            }
+        }
+        .form-select{
+            display: inline-flex;
+            gap: 5px;
+            form,
+            select{
+                
+                outline-color: rgba(218, 165, 32, 0.686);
+                width: 180px;
+                height: 20px;
+                padding: 2px 5px;
+            border-radius: 5px;
+            font-weight: 300;
+                text-transform: uppercase;
+    
+            }
+            form > input,
+            select{
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: 700;
+            }
+
+        }
+        select{
+            width: fit-content;
+            height: fit-content;
+        }
+}
+
+
+@media  screen and (max-width:768px){
+    .search{
+        width: fit-content;
+        .list-icons{
+            display: grid;
+            place-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        .form-select{
+        display: grid;
+        grid-gap: 5px;
+        form,
+        select{
+        width: 180px;
+        
+        }
+
+    }
+    } 
+}
