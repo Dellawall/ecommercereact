@@ -17,7 +17,7 @@ useEffect(() => {
 
   return (
     <div className='frog'>
-      <p><AiOutlineCopyright />Olawale</p>
+      <p><AiOutlineCopyright />Olawale Odetola</p>
     </div>
   )
 }
